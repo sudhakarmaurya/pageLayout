@@ -5,27 +5,29 @@ body{
     margin: 0px;
 }
 /* all div style */
-.divS{
-    background-color: yellow;
-    border: 1px solid red;
-    width: 150px;
-    height: 100px;
+img{
+    /* background-color: yellow; */
+    border: 1px solid green;
+    width: 240px;
+    height: 135px;
 }
 
 .top{
-    margin: 50px 0px 0px 40%;
+    margin: 50px 0px 0px 39%;
     /* background-color: red; */
 }
 
 .top .Selection_btn{
-    margin: 50px 0px 0px 13px;
+    display: block;
+    margin: 50px 0px 0px 50px;
+    
 }
 
 .down {
     /* background-color: red; */
-    margin: 150px 0px 0px 20%;
+    margin: 150px 0px 0px 10%;
 }
-.down .divS{
+.down img{
     display: inline-block;
     margin-right:50px ;
 }
