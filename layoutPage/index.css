@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+/* all div style */
+.divS{
+    background-color: yellow;
+    border: 1px solid red;
+    width: 150px;
+    height: 100px;
+}
+
+.top{
+    margin: 50px 0px 0px 40%;
+    /* background-color: red; */
+}
+
+.top .Selection_btn{
+    margin: 50px 0px 0px 13px;
+}
+
+.down {
+    /* background-color: red; */
+    margin: 150px 0px 0px 20%;
+}
+.down .divS{
+    display: inline-block;
+    margin-right:50px ;
+}
